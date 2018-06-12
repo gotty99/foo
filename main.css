@@ -1,0 +1,198 @@
+html {
+  box-sizing: border-box;
+  min-height: 100%; 
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body {
+	margin: 0;
+}
+/*kako da pozicioniram sliku na centar slajda??*/
+.carousel-inner  {
+	height: 600px;
+}
+
+/*Los pokusaj navigacije*/
+.nav {
+	height: 64px;
+}
+
+ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+ul li {
+	float: left;
+	width: 200px;
+	height: 64px;
+	background-color: #503333;
+	line-height: 64px;	
+	text-align: center;
+	font-size: 26px;
+}
+
+ul li a {
+	color: #d5fdf8;
+	display: block;
+}
+
+ul li a:hover {
+	background-color: #2f1818;
+	color: white;
+	text-decoration: none;
+}
+
+ul li ul li {
+	display: none;
+}
+
+ul li:hover ul li {
+	display: block;
+	opacity: .7;
+}
+
+.logo {
+	margin: 0;
+	float: right;
+	height: 100%;
+	width: 549px;
+	background-color: darkcyan;
+	color: #d5fdf8;
+	font-size: 40px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-shadow: 2px 2px black;
+	font-family: serif;
+}
+
+.presentation {
+	background-color: #d65d6840;
+	height: auto;
+	/*outline: 1px dashed blue;*/
+} 	
+
+.h1 {
+	height: 24px;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: 0;
+	margin-bottom: 25px;
+	padding-top: 25px;
+	font-weight: 600;
+	text-shadow: 3px 3px #ce9393;
+	color: black;
+}
+
+.wraper {
+	display: flex; 
+}
+
+.container {
+	/*padding: 5px;*/
+	/*outline: 1px solid black;*/
+}
+
+.container:hover {
+	background-color: white;
+}
+
+.container-img {
+	height:100%;
+	width: 100%;
+}
+
+.about {
+	padding: 0 15px;
+	text-align: justify;
+	height: 250px;
+	background-color: #d65d6840;
+}
+
+.main-text {
+	border-top: 1px solid #9a6262;
+	display: flex;
+	justify-content: center;
+	align-self: center;
+	color: darkcyan;
+	text-shadow: 2px 2px #d5fdf8;
+}
+
+.under-text {
+	margin: 0;
+	font-size: 50px;
+	font-family: serif;
+}
+
+.about-us {
+	font-weight: bold;
+	font-size: 25px;
+	color: black; 
+}
+
+.about p {
+	font-size: 16px;
+	line-height: 30px;
+}
+
+.footer {
+	height: 64px;
+	/*outline: 1px dashed green;*/
+	background-color: #503333;
+	margin: 0 auto;
+}
+
+.wraper-footer {
+	display: flex;
+	justify-content: center;
+}
+
+.fa {
+	padding: 16px;
+    font-size: 20px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    border-radius: 30px;
+}
+
+.fa:hover {
+	text-decoration: none;
+	opacity: .7;
+	color: white;
+}
+
+.fa-twitter {
+	background: #55ACEE;
+    color: white;
+}
+
+.fa-instagram {
+	background: #125688;
+	color: white;
+}
+
+.fa-facebook {
+	background: #3B5998;
+	color: white;
+} 
+
+.social {
+	margin-left: 30px;
+	width: auto;
+}
+
+.footer-text {
+	display: flex;
+	align-items: center;
+	color: white;
+	font-size: 24px;
+	font-family: monospace;
+}
