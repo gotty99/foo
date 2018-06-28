@@ -1,2 +1,2 @@
 # gotty99.github.io
-tesing site
+https://gotty99.github.io/foo/
